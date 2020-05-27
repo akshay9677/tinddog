@@ -1,0 +1,140 @@
+#title{
+  background-color: #ff4c68;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 4%;
+  color: #fff;
+}
+.intro{
+  font-family: 'Montserrat-Black', sans-serif;
+  padding-top: 8%;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/* navigation bar */
+.navbar{
+  padding-bottom:2rem 2rem 4.5rem 2rem !important;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+
+
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-links{
+  font-family: "Montserrat";
+}
+/* download button */
+.download-button
+{
+  margin: 5% 3% 5% 0% !important ;
+}
+/* dogphone */
+.dogphone{
+  width: 60%;
+  position: absolute;
+  transform: rotate(25deg);
+}
+/* description */
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.des{
+  text-align: center;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem !important;
+}
+p{
+  color: #8f8f8f;
+}
+.desimg{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+ .desimg:hover{
+   color: #ff4c68;
+ }
+/* testimonial */
+#testimonials{
+  padding: 3% 3%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+h2{
+  margin-top: 1rem;
+}
+@media (max-width:1028px) {
+.dogphone{
+  position: static;
+  transform: rotate(0deg);
+}
+#title{
+  text-align: center;
+}
+
+}
+.testimonialimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+/* press */
+#press{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.pressimg{
+  width: 20%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#pricing{
+  text-align: center;
+  margin: 2% 2%;
+}
+.pricingcont{
+  font-family: "Montserrat";
+  margin: 3% 3%;
+}
+h2{
+  font-family: "Montserrat";
+
+}
+h3{
+  color: #ef8172;
+}
+#cta{
+  background-color: #ef8172;
+  text-align: center;
+}
+.ctatxt{
+  color: #fff;
+  font-family: "Montserrat";
+  padding-top: 2%;
+}
+#footer{
+  text-align: center;
+}
+.download-button2{
+  margin:2% 2% 2% 2%;
+}
+#footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
